@@ -1,0 +1,20 @@
+{
+    "name": "http-client-dumper",
+    "version": "0.0.1",
+    "description": "",
+    "author": "Compilenix <Compilenix@compilenix.org>",
+    "main": "Index.js",
+    "scripts": {
+        "start": "npm install && node Index.js"
+    },
+    "dependencies": {
+        "fs-extra": "*",
+        "mime-types": "^2.1.17"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://git.compilenix.org/Compilenix/http-client-dumper"
+    },
+    "bugs": "https://git.compilenix.org/Compilenix/http-client-dumper/issues",
+    "license": "MIT"
+}

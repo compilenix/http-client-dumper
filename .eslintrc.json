@@ -1,0 +1,33 @@
+{
+	"env": {
+		"browser": false,
+		"es6": true,
+		"node": true,
+		"commonjs": false
+	},
+	"extends": "eslint:recommended",
+	"parserOptions": {
+		"sourceType": "module",
+		"ecmaVersion": 8,
+		"ecmaFeatures": {
+			"classes": true,
+			"defaultParams": true,
+			"arrowFunctions": true,
+			"superInFunctions": true,
+			"impliedStrict": true,
+			"templateStrings": true
+		}
+	},
+	"rules": {
+		"strict": "error",
+		"linebreak-style": [
+			"error",
+			"unix"
+		],
+		"quotes": "warn",
+		"semi": [
+			"error",
+			"always"
+		]
+	}
+}

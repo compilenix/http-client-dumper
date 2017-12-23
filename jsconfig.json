@@ -1,0 +1,14 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=759670
+	// for the documentation about the jsconfig.json format
+	"compilerOptions": {
+		"target": "es2017",
+		"module": "es2015",
+		"allowSyntheticDefaultImports": true,
+        "checkJs": true,
+        "strict": true
+	},
+	"exclude": [
+		"node_modules"
+	]
+}
